@@ -163,8 +163,8 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     public void openMenu (View view) {
-            Intent intent = new Intent(SplashActivity.this, MenuActivity.class);
-            startActivity(intent);
-            SplashActivity.this.finish();
+        Intent intent = new Intent(SplashActivity.this, MenuActivity.class);
+        startActivity(intent);
+        SplashActivity.this.finish();
     }
 }
